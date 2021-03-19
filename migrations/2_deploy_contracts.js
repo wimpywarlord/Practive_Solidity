@@ -1,6 +1,5 @@
-const TodoList = artifacts.require("./TodoList.sol");
+const InfoStudent = artifacts.require("./InfoStudent.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(TodoList);
+    deployer.deploy(InfoStudent);
 };
-

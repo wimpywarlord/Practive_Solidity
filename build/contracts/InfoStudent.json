@@ -1,10 +1,10 @@
 {
-  "contractName": "TodoList",
+  "contractName": "InfoStudent",
   "abi": [
     {
       "constant": true,
       "inputs": [],
-      "name": "taskCount",
+      "name": "name",
       "outputs": [
         {
           "internalType": "uint256",
@@ -17,33 +17,36 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"taskCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/TodoList.sol\":{\"keccak256\":\"0x6071a259f39a757a354e51d798ffacd537cff0d0e643e8b7af7beefafff599f2\",\"urls\":[\"bzz-raw://2bb1a4e3fe43dabe263d5c5ad7fa15095b1caf2843adeae0ffff9077fcc4aa89\",\"dweb:/ipfs/Qmb8zySQnBBBGwdqcL1hWozBC88qgpT5psG3vQ3sH2PSNR\"]}},\"version\":1}",
-  "bytecode": "0x608060405260008055348015601357600080fd5b506080806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063b6cb58a514602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a723158207e6b6b81fb228e0326f75a73a394dced45cf5468678e456c5d9bc5fa6f9411e564736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063b6cb58a514602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a723158207e6b6b81fb228e0326f75a73a394dced45cf5468678e456c5d9bc5fa6f9411e564736f6c63430005100032",
-  "sourceMap": "29:193:1:-;;;109:1;85:25;;29:193;8:9:-1;5:2;;;30:1;27;20:12;5:2;29:193:1;;;;;;;",
-  "deployedSourceMap": "29:193:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;29:193:1;;;;;;;;;;;;;;;;;;;85:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.20;\r\n\r\ncontract TodoList {\r\n    // ALL THE CODE GOES HERE\r\n    uint public taskCount = 0; //STATE VARIABLES, are WRITTEN TO THE BLOCKCHAIN\r\n    // STATE CHANGES EVERYTIME STATE VARIABLE CHANGES\r\n\r\n\r\n}",
-  "sourcePath": "D:/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/TodoList.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/InfoStudent.sol\":\"InfoStudent\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/InfoStudent.sol\":{\"keccak256\":\"0xc05dd19641ff74da91e8951ade771463307f734d5f9bfc5483f995a549e80e1d\",\"urls\":[\"bzz-raw://d5a66e8a3f2fc4e8760f22404fd515d6860030e6d34152d3f5e4ed101513e5e9\",\"dweb:/ipfs/QmTzZAKh4RvMiWXiWjXr7hnwrbc6KatyNg54p7P76WRUnG\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506080806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806306fdde0314602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a7231582050bcd1e6c40056f629569df1733f559329862d00b21c881ed4da613e3fa36c2f64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806306fdde0314602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a7231582050bcd1e6c40056f629569df1733f559329862d00b21c881ed4da613e3fa36c2f64736f6c63430005100032",
+  "sourceMap": "36:52:0:-;;;83:1;64:20;;36:52;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:52:0;;;;;;;",
+  "deployedSourceMap": "36:52:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:52:0;;;;;;;;;;;;;;;;;;;64:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.8.0;\r\n\r\ncontract InfoStudent {\r\n    uint public name = 0;\r\n}\r\n",
+  "sourcePath": "D:/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/InfoStudent.sol",
   "ast": {
-    "absolutePath": "/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/TodoList.sol",
+    "absolutePath": "/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/InfoStudent.sol",
     "exportedSymbols": {
-      "TodoList": [
-        38
+      "InfoStudent": [
+        5
       ]
     },
-    "id": 39,
+    "id": 6,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 34,
+        "id": 1,
         "literals": [
           "solidity",
           ">=",
           "0.4",
-          ".20"
+          ".22",
+          "<",
+          "0.8",
+          ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:25:1"
+        "src": "0:32:0"
       },
       {
         "baseContracts": [],
@@ -51,20 +54,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 38,
+        "id": 5,
         "linearizedBaseContracts": [
-          38
+          5
         ],
-        "name": "TodoList",
+        "name": "InfoStudent",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 37,
-            "name": "taskCount",
+            "id": 4,
+            "name": "name",
             "nodeType": "VariableDeclaration",
-            "scope": 38,
-            "src": "85:25:1",
+            "scope": 5,
+            "src": "64:20:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -72,10 +75,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 35,
+              "id": 2,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "85:4:1",
+              "src": "64:4:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -84,14 +87,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 36,
+              "id": 3,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "109:1:1",
+              "src": "83:1:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -102,32 +105,35 @@
             "visibility": "public"
           }
         ],
-        "scope": 39,
-        "src": "29:193:1"
+        "scope": 6,
+        "src": "36:52:0"
       }
     ],
-    "src": "0:222:1"
+    "src": "0:90:0"
   },
   "legacyAST": {
-    "absolutePath": "/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/TodoList.sol",
+    "absolutePath": "/D/MY PROJECTS/BLOCK CHAIN/Practive_Solidity/contracts/InfoStudent.sol",
     "exportedSymbols": {
-      "TodoList": [
-        38
+      "InfoStudent": [
+        5
       ]
     },
-    "id": 39,
+    "id": 6,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 34,
+        "id": 1,
         "literals": [
           "solidity",
           ">=",
           "0.4",
-          ".20"
+          ".22",
+          "<",
+          "0.8",
+          ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:25:1"
+        "src": "0:32:0"
       },
       {
         "baseContracts": [],
@@ -135,20 +141,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 38,
+        "id": 5,
         "linearizedBaseContracts": [
-          38
+          5
         ],
-        "name": "TodoList",
+        "name": "InfoStudent",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 37,
-            "name": "taskCount",
+            "id": 4,
+            "name": "name",
             "nodeType": "VariableDeclaration",
-            "scope": 38,
-            "src": "85:25:1",
+            "scope": 5,
+            "src": "64:20:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -156,10 +162,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 35,
+              "id": 2,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "85:4:1",
+              "src": "64:4:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -168,14 +174,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 36,
+              "id": 3,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "109:1:1",
+              "src": "83:1:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -186,11 +192,11 @@
             "visibility": "public"
           }
         ],
-        "scope": 39,
-        "src": "29:193:1"
+        "scope": 6,
+        "src": "36:52:0"
       }
     ],
-    "src": "0:222:1"
+    "src": "0:90:0"
   },
   "compiler": {
     "name": "solc",
@@ -200,12 +206,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x070346655F5594DCD14196e638d4933eF314e2E2",
-      "transactionHash": "0x5b8863567987bb52a8338cbc18070626e3ee590289bf609cc35d588e433912fa"
+      "address": "0x0bA8e58019347Ecd81719ce29142ea8ac881656C",
+      "transactionHash": "0x07b46714be3fe8bd50e77286294b1e67e81bde8e5ea911ce6c9127ec596e296c"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-03-19T08:30:10.293Z",
+  "updatedAt": "2021-03-19T13:40:34.419Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
